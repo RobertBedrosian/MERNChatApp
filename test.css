@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+.navContainer{
+    box-shadow: 0 5px 5px 1px lightgray;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: white;
+
+}
+.navContainerLinks{
+
+    margin-left: auto;
+}
+.navContainerLinks a{
+    position: relative;
+    top:15px;
+    right: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.navContainerText{
+    position: relative;
+    left: 10px;
+    margin-right: auto;
+}
+.loggedOutHome{
+    font-family: 'Roboto', sans-serif;
+    width: 35%;
+    position: relative;
+    box-shadow: 0 5px 5px 1px rgb(110, 110, 110);
+    border-radius: 20px;
+    margin: auto;
+    background-color: lightgray;
+}
+.loggedOutHome p{
+    text-align: center;
+}
+.loggedOutHome ul{
+    text-align: center;
+    list-style: none;
+}
+.loggedInHome{
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+.userDB{
+    position: fixed;
+    top: 69px;
+    width: 25%;
+    left: 75%;
+    text-align:center;
+}
+.userDB table{
+    border: solid goldenrod 2px;
+    width: 50%;
+    margin: auto;
+}
+.userDB table p{
+    user-select: none;
+    cursor: pointer;
+}
+.hidden{
+    opacity: 0;
+}
+.sent{
+    color:darkblue;
+    margin-bottom: 16px;
+}
+.chatArea{
+    width:75%;
+    margin-right: auto;
+}
+.chatArea .chatLog{
+    position: relative;
+    top: 60px;
+}
+.chatArea .chatPartner{
+    text-align: center;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 59px;
+    width: 100%;
+    margin: auto;
+    z-index: 2;
+}
+.recieved{
+    color:darkgreen;
+    margin-bottom: 16px;
+}
+form{
+    width: 50%;
+    position: relative;
+    top: 60px;
+    margin: auto;
+    text-align: center;
+}
+form p{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    padding:10px;
+    border-radius: 10px;
+    background-color: lightblue;
+    user-select: none;
+    cursor: pointer;
+}
+form input{
+    height: 30px;
+    width: 400px;
+}
